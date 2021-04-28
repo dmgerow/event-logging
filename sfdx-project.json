@@ -1,0 +1,18 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "package": "Event Logger",
+            "versionName": "v1.0",
+            "versionNumber": "1.0.0.NEXT",
+            "default": true
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "51.0",
+    "packageAliases": {
+        "Event Logger": "0Ho5w000000TNByCAO",
+        "Event Logger@1.0.0-1": "04t5w000005qvmpAAA"
+    }
+}

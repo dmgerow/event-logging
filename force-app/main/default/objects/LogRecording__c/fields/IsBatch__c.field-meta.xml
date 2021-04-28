@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsBatch__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>True when executed from a batch</description>
+    <externalId>false</externalId>
+    <inlineHelpText>True when executed from a batch</inlineHelpText>
+    <label>Batch</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsTrigger__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Returns true if the current context for the Apex code is a trigger, not a Visualforce page, a Web service, or an executeanonymous() API call.</description>
+    <label>Trigger</label>
+    <type>Checkbox</type>
+</CustomField>
