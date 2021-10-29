@@ -9,6 +9,13 @@ Salesforce Logging framework powered by Platform Events
 3. Install for admins only
 4. Assign the Event Logger Permission Set to your team
 
+Or, you can deploy it directly to your org with the button below
+
+<a href="https://githubsfdeploy.herokuapp.com?owner=dmgerow&repo=sfdc-event-logging&ref=main">
+<img alt="Deploy to Salesforce"
+          src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
+
 ## Generating Unique Error Ids
 
 You can get a unique error ID with the following code. Use this when sending exceptions to the end user so that they can tell you what log to look for:
@@ -58,7 +65,7 @@ exceptionLog.emit();
 ## Time multiple things
 
 ```java
-List<__Log__e> times = new List<__Log__e>();
+List<Log__e> times = new List<Log__e>();
 String transactionId = LogService.createErrorId();
 datetime startTime = datetime.now();
 // do important things
