@@ -4,10 +4,9 @@ Salesforce Logging framework powered by Platform Events
 
 ## Installation
 
-1. Ensure my domain is enabled (this is needed for any lightning components to render!)
-2. Navigate to the latest release for a package installation link: [latest release](https://github.com/dmgerow/sfdc-event-logging/releases/latest)
-3. Install for admins only
-4. Assign the Event Logger Permission Set to your team
+1. Navigate to the latest release for a package installation link: [latest release](https://github.com/dmgerow/sfdc-event-logging/releases/latest)
+2. Install for admins only
+3. Assign the Event Logger Permission Set to your team
 
 Or, you can deploy it directly to your org with the button below
 
